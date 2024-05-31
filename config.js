@@ -1,6 +1,6 @@
 module.exports = {
 
-    sqlConnectionString: "<connection-string-for-your-sql-database-goes-here>", // Insert your connection string here.
+    sqlConnectionString: "name="ATSTravel" connectionString="Data Source=104.211.182.161;Database=ATSPrelive3;Integrated Security=false;User ID=ganit;Password=GCVhvj534cfg;MultipleActiveResultSets=True" providerName="System.Data.SqlClient", // Insert your connection string here.
     mongoConnectionString: "mongodb://localhost:27017", // This puts the resulting database in MongoDB running on your local PC.
     targetDatabaseName: "target-database", // Specify the MongoDB database where the data will end up.
     skip: [
